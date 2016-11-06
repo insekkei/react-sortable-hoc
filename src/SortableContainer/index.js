@@ -281,11 +281,11 @@ export default function SortableContainer(WrappedComponent, config = {withRef: f
 			// Update state
 			this.manager.active = null;
 
-			this.setState({
+			/*this.setState({
 				sorting: false,
 				sortingIndex: null
 			});
-
+*/
 			this._touched = false;
 		}
 

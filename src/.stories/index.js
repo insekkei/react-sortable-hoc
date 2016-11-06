@@ -59,7 +59,7 @@ class ListWrapper extends Component {
 		let {onSortEnd} = this.props;
         let {items} = this.state;
 
-        this.setState({items: arrayMove(items, oldIndex, newIndex)});
+        // this.setState({items: arrayMove(items, oldIndex, newIndex)});
 
 		if (onSortEnd) {
 			onSortEnd(this.refs.component);
